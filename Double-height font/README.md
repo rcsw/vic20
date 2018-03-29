@@ -16,7 +16,7 @@ The file vic20-largefont is a binary image of a font with 8x16 chraracters, to b
 30 NEXT I
 ```
 
-1. Switch the location of the character table (byte 36869), while also changing the row number (byte 36867). You must do both of these and clear the screen in a single command, or you won't be able to see to type! The command is:
+5. Switch the location of the character table (byte 36869), while also changing the row number (byte 36867). You must do both of these and clear the screen in a single command, or you won't be able to see to type! The command is:
 
 ```
 POKE 36867,23:POKE 36869,252:PRINT CHR$(147)
