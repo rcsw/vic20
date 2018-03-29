@@ -25,3 +25,5 @@ POKE 36867,23:POKE 36869,252:PRINT CHR$(147)
 You should now be seeing the double-height characters.
 
 As of the writing of this, only part of the character page has been created, meaning only capital letters, numbers, and some punctuation work, and there is no cursor. These will be added later. Note that the Shift+Commodore-key key combination no longer works properly, because the character table is now doubled in size- you will end up shifting halfway through the character table instead. Since the arrangement of the character tables is standard-lowercase-inverse standard-inverse lowercase, switching to inverse will give you the lowercase character table.
+
+All of these characters are HAND-CODED, using a spreadsheet program, and thus are an original work. No data from the factory 8x8 font was used.
